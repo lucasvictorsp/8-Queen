@@ -12,23 +12,21 @@ O problema foi solucionado utilizando um vetor de inteiros de tamanho 8 onde as 
 <br/>
 ## Pseudocódigo do Algoritmo Genético:
 
-*Entrada*: População (total de indivíduos)
-	*Enquanto* não for solução
-		**Para Cada** indivíduo da População
-			**Se** indivíduo é a solução
-				**returna** individuo
-		*EscolhePais*(População);
-		*GeraProximaGeração*(População)
+*Entrada*: População (total de indivíduos)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Enquanto* não for solução<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Para Cada** indivíduo da População<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Se** indivíduo é a solução<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returna** individuo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*EscolhePais*(População);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*GeraProximaGeração*(População)<br/>
 *Saída*: um indivíduo que é a solução do problema, ou seja, que contém 8 rainhas em um tabuleiro das quais nenhumas se atacam.
-<br/>
 
 ## Método Para Escoler os Pais:
 - Aleatório;
 - Roleta.
-<br/>
 
 ## Método Para Gerar a Nova Geração:
 - Apenas um filho;
 - Gera dois filhos.
 
-![alt text](https://github.com/lucasvictorsp/Peg-solitaire/blob/main/exemplos%20de%20tabuleiro.png)
+![alt text](https://github.com/lucasvictorsp/8-Queen/blob/main/example.png)
