@@ -9,7 +9,7 @@ O problema das *N-Rainhas* consiste em colocar em um tabuleiro de xadrez de tama
 Este trabalho propõem uma sulução para o problema das 8-Rainhas a partir de um **algoritmo genético**.<br/>
 <br/>
 O problema foi solucionado utilizando um vetor de inteiros de tamanho 8 onde as posições do vetor indicam a coluna de um tabuleiro e os inteiros (de 1 a 8) gravados em casa posição do vetor indicam a linha. A combinação desses dois fatores indica a posição exata em que uma rainha se encontra no tabuleiro.<br/>
-<br/>
+
 ## Pseudocódigo do Algoritmo Genético:
 
 *Entrada*: População (total de indivíduos)<br/>
